@@ -1,4 +1,3 @@
-============================================
 package com.example.entity;
 
 
@@ -17,12 +16,13 @@ public class Student {
     private int marks;
 
     // Constructors
-    public Student() {}
+    public Student() {
 
     public Student(String name, String department, int marks) {
         this.name = name;
         this.department = department;
         this.marks = marks;
+    }
     }
 
     // Getters & Setters
